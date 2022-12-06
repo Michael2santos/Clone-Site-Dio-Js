@@ -1,0 +1,32 @@
+##Hooks ?
+Hooks são funções que permitem a você “ligar-se” aos recursos de state e ciclo de vida do React a partir de componentes funcionais. Hooks não funcionam dentro de classes — eles permitem que você use React sem classes.
+
+##UseState ? 
+O useState , que permite a criação de estado no componente através de função e faz o gerenciamento do estado local do componente retorna um array como resultado. Por isso, é possível fazermos uma desestruturação para receber partes desse retorno. 
+
+##UseEffect ?
+O useEffect é um Hook que serve para lidar com os efeitos. Podemos usá-los como os lifeCycles componentDidMount , componentDidUpdate e componentWillUnmount . Imagine que a gente tenha uma API que nos retorna uma lista de produtos baseado no nome que passarmos."Gerenciar quando um componente está renderizando"
+
+##useMemo ? 
+O useMemo é bem semelhante ao useCallback, porém o useMemo faz a memorização de qualquer tipo de valor. O useMemo recebe uma função que retorna o valor. valor armazenado no usememo mesmo depois de reinderizar fica salvo.
+
+##useCallback ? 
+O useCallback retorna um callback memorizado. O que isso significa? A cada renderização do seu componente, todo o código que está nele é executado novamente. Portanto, as funções são re-declaradas, e uma nova referência (na memória) é alocada para cada função, memoriza a função.
+
+#React Hook Forms ? 
+formulario react, instalar com comando: npm install react-hook-form
+
+#YUP ? 
+Validador de emails e senha - instalar usando comando: npm install @hookform/resolvers yup
+
+#axios ? 
+comando para instalar : npm install axios 
+
+usando API "Fake" comando para instalar: npm install -g json-server
+
+#TypeScript
+convertendo projeto javaScript em TypeScript
+Instalações
+npm install typescript @types/node @types/react @types/react-dom @types/jest -D "-d é para instalar como dependencia de desenvolvimento"
+executar typescript
+npx tsc --init
